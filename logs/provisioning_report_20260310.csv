@@ -1,0 +1,6 @@
+"Name","Username","UPN","Department","Title","OU","Groups","Status","Timestamp"
+"John Smith","john.smith","john.smith@bonduelle.local","IT","Systems Administrator","OU=IT,OU=Users,DC=bonduelle,DC=local","SG-IT-Staff; SG-VPN-Access; SG-Admin-Tools","Created","2026-03-10 00:11:29"
+"Maria Garcia","maria.garcia","maria.garcia@bonduelle.local","Manufacturing","Line Supervisor","OU=Manufacturing,OU=Users,DC=bonduelle,DC=local","SG-Manufacturing; SG-MES-Access","Created","2026-03-10 00:11:29"
+"David Johnson","david.johnson","david.johnson@bonduelle.local","Logistics","Shipping Coordinator","OU=Logistics,OU=Users,DC=bonduelle,DC=local","SG-Logistics; SG-Shipping-App","Created","2026-03-10 00:11:29"
+"Sarah Williams","sarah.williams","sarah.williams@bonduelle.local","IT","Help Desk Analyst","OU=IT,OU=Users,DC=bonduelle,DC=local","SG-IT-Staff; SG-VPN-Access; SG-Admin-Tools","Created","2026-03-10 00:11:30"
+"James Brown","james.brown","james.brown@bonduelle.local","Manufacturing","Quality Technician","OU=Manufacturing,OU=Users,DC=bonduelle,DC=local","SG-Manufacturing; SG-MES-Access","Created","2026-03-10 00:11:30"

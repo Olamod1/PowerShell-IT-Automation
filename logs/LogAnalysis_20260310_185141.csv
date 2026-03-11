@@ -1,0 +1,24 @@
+"EventID","Count","Severity","Source","FirstSeen","LastSeen","Message"
+"225","198","Warning","Microsoft-Windows-Kernel-PnP","2026-03-06 11:05:02","2026-03-06 13:34:04","The application System with process id 4 stopped the removal or ejection for the device ACPI\LEN0268\5&2890d699&0.
+Process command line: 
+List of affected devices:
+ACPI\LEN0268\5&2890d699&0
+"
+"10016","51","Warning","Microsoft-Windows-DistributedCOM","2026-03-05 20:04:15","2026-03-10 14:28:38","The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user MYMACHINE\olamo SID (S-1-5-21-640150016-3837747066-1608376371-1001) from address LocalHost (Using LRPC) running in the application container MSTeams_26032.208.4399.5_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+"700","46","Warning","Win32k","2026-03-05 20:05:12","2026-03-10 16:43:40","Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)"
+"701","46","Warning","Win32k","2026-03-06 10:34:42","2026-03-10 18:06:32","Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)"
+"6062","43","Warning","Netwtw14","2026-03-05 19:53:27","2026-03-10 18:06:41",
+"1796","22","Error","Microsoft-Windows-TPM-WMI","2026-03-05 22:37:20","2026-03-10 10:43:45","The Secure Boot update failed to update SBAT with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931"
+"37","16","Warning","Microsoft-Windows-Kernel-Processor-Power","2026-03-05 19:54:25","2026-03-09 18:57:20","The speed of processor 11 in group 0 is being limited by system firmware. The processor has been in this reduced performance state for 71 seconds since the last report."
+"219","14","Warning","Microsoft-Windows-Kernel-PnP","2026-03-06 10:46:47","2026-03-09 18:56:14","The driver \Driver\WudfRd failed to load.
+Device: USB\VID_05AC&PID_12A8&MI_00\6&250814ac&0&0000
+Status: 0xC0000365"
+"196","12","Warning","Microsoft-Windows-USB-USBHUB3","2026-03-08 17:35:54","2026-03-10 00:20:44","USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x5AC PID: 0x13A0 REV: 0x5104             
+Removal action failed: QueryRemovalInitiated"
+"167","8","Warning","Microsoft-Windows-Hyper-V-Hypervisor","2026-03-05 19:53:10","2026-03-09 18:56:00","The hypervisor did not enable mitigations for side channel vulnerabilities for virtual machines because HyperThreading is enabled. To enable mitigations for virtual machines, disable HyperThreading."

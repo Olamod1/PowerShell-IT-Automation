@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Health Report - MYMACHINE</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        h1 { color: #1B3A5C; border-bottom: 3px solid #2E86AB; padding-bottom: 10px; }
+        h2 { color: #2E86AB; margin-top: 30px; }
+        table { border-collapse: collapse; width: 100%; margin: 10px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        th { background: #1B3A5C; color: white; padding: 12px; text-align: left; }
+        td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f0f7ff; }
+        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; }
+        .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center; }
+        .card h3 { margin: 0 0 10px 0; color: #666; font-size: 14px; }
+        .card .value { font-size: 36px; font-weight: bold; }
+        .footer { margin-top: 30px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>System Health Report</h1>
+    <p><strong>Computer:</strong> MYMACHINE | <strong>Date:</strong> 2026-03-10 16:26:49 | <strong>Uptime:</strong> 0 days, 21 hours, 30 minutes</p>
+
+    <div class="summary-grid">
+        <div class="card">
+            <h3>CPU USAGE</h3>
+            <div class="value" style="color:#44BB44">39%</div>
+            <div style="color:#44BB44">HEALTHY</div>
+        </div>
+        <div class="card">
+            <h3>MEMORY USAGE</h3>
+            <div class="value" style="color:#FFA500">85.1%</div>
+            <div>6.56 / 7.71 GB</div>
+        </div>
+        <div class="card">
+            <h3>SYSTEM UPTIME</h3>
+            <div class="value" style="color:#2E86AB; font-size:24px;">0 days, 21 hours, 30 minutes</div>
+        </div>
+        <div class="card">
+            <h3>SERVICES</h3>
+            <div class="value" style="color:#44BB44">5 / 7</div>
+            <div>Running</div>
+        </div>
+    </div>
+
+    <h2>Disk Usage</h2>
+    <table>
+        <tr><th>Drive</th><th>Total</th><th>Used</th><th>Free</th><th>Used %</th><th>Status</th></tr>
+        <tr>
+        <td>C:</td>
+        <td>237.51 GB</td>
+        <td>97.12 GB</td>
+        <td>140.39 GB</td>
+        <td style='color:#44BB44; font-weight:bold;'>40.9%</td>
+        <td style='color:#44BB44; font-weight:bold;'>HEALTHY</td>
+    </tr>
+    </table>
+
+    <h2>Top 10 Processes by CPU</h2>
+    <table>
+        <tr><th>Process</th><th>PID</th><th>CPU (sec)</th><th>Memory</th></tr>
+        <tr>
+        <td>claude</td>
+        <td>13700</td>
+        <td>4588.03</td>
+        <td>363.74 MB</td>
+    </tr>
+<tr>
+        <td>claude</td>
+        <td>8236</td>
+        <td>1465.38</td>
+        <td>92.77 MB</td>
+    </tr>
+<tr>
+        <td>chrome</td>
+        <td>16040</td>
+        <td>1159.22</td>
+        <td>48.39 MB</td>
+    </tr>
+<tr>
+        <td>chrome</td>
+        <td>19148</td>
+        <td>1115.03</td>
+        <td>76.68 MB</td>
+    </tr>
+<tr>
+        <td>chrome</td>
+        <td>15848</td>
+        <td>373.19</td>
+        <td>129.6 MB</td>
+    </tr>
+<tr>
+        <td>msedgewebview2</td>
+        <td>26228</td>
+        <td>352.44</td>
+        <td>228 MB</td>
+    </tr>
+<tr>
+        <td>claude</td>
+        <td>8332</td>
+        <td>328.8</td>
+        <td>74.42 MB</td>
+    </tr>
+<tr>
+        <td>explorer</td>
+        <td>9296</td>
+        <td>222.02</td>
+        <td>169.52 MB</td>
+    </tr>
+<tr>
+        <td>msedgewebview2</td>
+        <td>23376</td>
+        <td>205.11</td>
+        <td>95.94 MB</td>
+    </tr>
+<tr>
+        <td>ipf_helper</td>
+        <td>6948</td>
+        <td>204.88</td>
+        <td>2.55 MB</td>
+    </tr>
+    </table>
+
+    <h2>Service Status</h2>
+    <table>
+        <tr><th>Service</th><th>Name</th><th>Status</th></tr>
+        <tr>
+        <td>Windows Update</td>
+        <td>wuauserv</td>
+        <td style='color:#FF4444; font-weight:bold;'>Stopped</td>
+    </tr>
+<tr>
+        <td>Print Spooler</td>
+        <td>Spooler</td>
+        <td style='color:#44BB44; font-weight:bold;'>Running</td>
+    </tr>
+<tr>
+        <td>Windows Time</td>
+        <td>W32Time</td>
+        <td style='color:#FF4444; font-weight:bold;'>Stopped</td>
+    </tr>
+<tr>
+        <td>Windows Remote Management (WS-Management)</td>
+        <td>WinRM</td>
+        <td style='color:#44BB44; font-weight:bold;'>Running</td>
+    </tr>
+<tr>
+        <td>Windows Event Log</td>
+        <td>EventLog</td>
+        <td style='color:#44BB44; font-weight:bold;'>Running</td>
+    </tr>
+<tr>
+        <td>DHCP Client</td>
+        <td>Dhcp</td>
+        <td style='color:#44BB44; font-weight:bold;'>Running</td>
+    </tr>
+<tr>
+        <td>DNS Client</td>
+        <td>Dnscache</td>
+        <td style='color:#44BB44; font-weight:bold;'>Running</td>
+    </tr>
+    </table>
+
+    <div class="footer">
+        <p>Generated by SystemHealthCheck.ps1 | Author: Oluwatosin Lamodi | 2026-03-10 16:26:49</p>
+    </div>
+</body>
+</html>

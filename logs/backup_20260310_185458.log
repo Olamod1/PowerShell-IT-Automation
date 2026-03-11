@@ -1,0 +1,56 @@
+2026-03-10 18:54:58 [INFO] Starting backup process...
+2026-03-10 18:54:58 [INFO] Source: C:\Users\olamo\PowerShell-IT-Automation
+2026-03-10 18:54:58 [INFO] Destination: C:\Users\olamo\PowerShell-IT-Automation\backups
+2026-03-10 18:54:58 [INFO] Retention: 7 days
+2026-03-10 18:54:58 [INFO] 
+2026-03-10 18:54:58 [SUCCESS] Created backup folder: C:\Users\olamo\PowerShell-IT-Automation\backups\2026-03-10_185458
+2026-03-10 18:54:58 [INFO] Checking available disk space...
+2026-03-10 18:54:59 [INFO] Source size: 1.18 MB
+2026-03-10 18:54:59 [INFO] Free space on C: : 140.26 GB
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   COPYING FILES
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO] Backing up: scripts
+2026-03-10 18:54:59 [SUCCESS]   Copied 4 files (0.03 MB)
+2026-03-10 18:54:59 [INFO] Backing up: data
+2026-03-10 18:54:59 [SUCCESS]   Copied 1 files (0 MB)
+2026-03-10 18:54:59 [INFO] Backing up: modules
+2026-03-10 18:54:59 [SUCCESS]   Copied 0 files (0 MB)
+2026-03-10 18:54:59 [INFO] Backing up: logs
+2026-03-10 18:54:59 [SUCCESS]   Copied 5 files (1.15 MB)
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   VERIFYING BACKUP INTEGRITY
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [SUCCESS]   scripts : 4 / 4 files verified
+2026-03-10 18:54:59 [SUCCESS]   data : 1 / 1 files verified
+2026-03-10 18:54:59 [SUCCESS]   modules : 0 / 0 files verified
+2026-03-10 18:54:59 [SUCCESS]   logs : 5 / 5 files verified
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] Running checksum verification on sample files...
+2026-03-10 18:54:59 [SUCCESS]   CHECKSUM MATCH: NewHires.csv
+2026-03-10 18:54:59 [ERROR]   CHECKSUM MISMATCH: backup_20260310_185458.log
+2026-03-10 18:54:59 [SUCCESS]   CHECKSUM MATCH: HealthReport_20260310_162642.html
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   RETENTION CLEANUP
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [SUCCESS]   No backups older than 7 days found
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   BACKUP SUMMARY
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   Total Files Copied:    10
+2026-03-10 18:54:59 [INFO]   Total Size:            1.18 MB
+2026-03-10 18:54:59 [INFO]   Folders Verified:      4 passed, 1 failed
+2026-03-10 18:54:59 [INFO]   Failed Operations:     0
+2026-03-10 18:54:59 [INFO]   Backup Location:       C:\Users\olamo\PowerShell-IT-Automation\backups\2026-03-10_185458
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [ERROR]   BACKUP STATUS: COMPLETED WITH ERRORS
+2026-03-10 18:54:59 [ERROR]   Review log for details: ..\logs\backup_20260310_185458.log
+2026-03-10 18:54:59 [INFO]   Report exported to: ..\logs\backup_report_20260310.csv
+2026-03-10 18:54:59 [INFO] 
+2026-03-10 18:54:59 [INFO] ============================================
+2026-03-10 18:54:59 [INFO]   BACKUP SCRIPT COMPLETE
+2026-03-10 18:54:59 [INFO] ============================================
